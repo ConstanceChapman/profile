@@ -170,8 +170,8 @@ h1, h2, h3 {
   border: none;
 }
 
-#get-in-touch td {
-  min-width: 350px;
+#get-in-touch table{
+  min-width: 700px;
   padding: 0;
 }
 
@@ -194,4 +194,25 @@ thead {
 th {
   margin-bottom: 10px;
   padding-bottom: 10px;
+}
+
+.button {
+  text-align: right;
+}
+
+.btn-minimal {
+  color: color: rgb(90, 90, 90);
+  border: 1px solid rgb(90, 90, 90);
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.btn-minimal:hover {
+   opacity: 1;
+   text-decoration: none;
+   color: rgba(255,0,0,0.7);
+   border: 1px solid rgba(255,0,0,0.7);
 }
